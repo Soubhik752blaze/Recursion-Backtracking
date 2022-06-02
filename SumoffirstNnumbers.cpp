@@ -24,6 +24,6 @@ int main()
 
 
 
-    //Code by blaze
+    //Code by Blaze
 
 }
