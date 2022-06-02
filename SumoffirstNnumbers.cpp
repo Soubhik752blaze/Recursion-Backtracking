@@ -22,4 +22,9 @@ int main()
     sumNnumbers(N,0);
     return 0;
 
+
+
+
+    //Code by blaze
+
 }
