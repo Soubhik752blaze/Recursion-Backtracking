@@ -11,8 +11,7 @@ void sumNnumbers(int i,int sum)
             cout<<sum;
             return ;
         }
-    sum+=i;
-    sumNnumbers(i-1,sum);  
+    sumNnumbers(i-1,sum+i);  
 }
 int main()
 {
