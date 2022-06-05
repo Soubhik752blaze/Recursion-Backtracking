@@ -1,4 +1,4 @@
-// Print Sum of first N natural numbers 
+// Print factorial of N
 
 
 #include<bits/stdc++.h>
