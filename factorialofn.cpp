@@ -25,8 +25,5 @@ int main()
     return 0;
 
 
-
-
-    //Code by Blaze
-
 }
+   //Code by Blaze
