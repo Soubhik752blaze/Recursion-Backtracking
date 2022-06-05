@@ -1,0 +1,40 @@
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+bool checkpalindrome(int l,int r,char arr[])
+{
+    if(l>=r)
+        return true;
+    if(arr[l]!=arr[r])
+        return false;
+    checkpalindrome(l+1,r-1,arr);
+}
+int main()
+{
+    int N;
+    cout<<"Enter Value of N :- ";
+    cin>>N;
+    if(N<=1)
+       {
+            cout<<"palindrome";
+            return 0;
+       }
+    char arr[N];
+    cout<<"Enter Values of array ---> ";
+    for(int i=0;i<N;i++)
+        cin>>arr[i];
+    
+    int ans = checkpalindrome(0,N-1,arr);
+    ans?cout<<"A palindrome":cout<<"Not a palindrom"; //?cout<<"True":cout<<"False";
+    
+    return 0;
+
+}
+
+
+    //Code by Blaze
+
