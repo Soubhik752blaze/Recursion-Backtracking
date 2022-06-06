@@ -67,4 +67,4 @@ int main()
 }
 
     //Code by Blaze
-    // TC O(2^k * k)  SC 
+    // TC O(2^n * k)  SC - changes according to ans. in general O(k * x)
