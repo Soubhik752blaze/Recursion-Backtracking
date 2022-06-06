@@ -4,11 +4,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int fibonacci(int n)
+int fib(int n)
 {
     if(n<=1)
         return n;
-    return fibonacci(n-1)+fibonacci(n-2);
+    return fib(n-1)+fib(n-2);
     
 }
 int main()
@@ -21,7 +21,7 @@ int main()
             cout<<"wrong Input";
             return 0;
        }
-    int ans=fibonacci(N);
+    int ans=fib(N);
     cout<<"Nth fibonacci number is "<<ans;
     return 0;
 
