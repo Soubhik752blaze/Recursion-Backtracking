@@ -97,7 +97,7 @@ int main() {
 }
 
 
-    //Code by Blaze   TC--O(N!) , SC-- O(N*N) -> NxN chessboard.
+    //Code by Blaze   TC--O(N!*N) , SC-- O(N*N) -> NxN chessboard.
 
 
 
