@@ -23,7 +23,7 @@ void combsum(int ind,int n,int target, int arr[],vector<int> &res, vector<vector
         combsum(ind,n,target-arr[ind],arr,res,ans);
         res.pop_back();
     }
-
+ 
     //Doesnot pick the element and hence target not reduced and also index + 1
     combsum(ind+1,n,target,arr,res,ans);
     
