@@ -50,6 +50,6 @@ int main()
 
 }
 
-    //Code by Blaze     TC(n)= n! if no storage need and n!*n if storage is needed...... SC(n)= o(n)
+    //Code by Blaze     TC(n)= n! if no storage need(only print) and n!*n if storage is needed...... SC(n)= o(n)
                         
 
