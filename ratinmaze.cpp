@@ -76,5 +76,6 @@ int main()
     
 }
 
-    //Code by Blaze
-    // TC O(2^n* n) and SC - changes according to ans. in general O(2^n)
+    /*Code by Blaze
+     Time Complexity: O(4^(m*n)), because on every cell we need to try 4 different directions.
+        Space Complexity:  O(m*n) ,Maximum Depth of the recursion tree(auxiliary space).*/
