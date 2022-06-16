@@ -26,7 +26,8 @@ class solution {
       vector < vector < int >> vis(n, vector < int > (n, 0));
       int di[] = { +1, 0, 0,-1};
       int dj[] = { 0, -1, 1, 0};
-      if (maze[0][0] == 1) solve(0, 0, maze, n, ans, "", vis, di, dj);
+      if (maze[0][0] == 1) 
+        solve(0, 0, maze, n, ans, "", vis, di, dj);
       return ans;
     }
 };
