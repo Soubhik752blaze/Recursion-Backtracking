@@ -13,10 +13,10 @@ void subsum(int ind,int n,int sum, int arr[], vector<int> &ans)
             ans.push_back(sum);
             return;
         }
-    //picks the element and hence target reduced and also since chance of picking it up again so index not increased
+    //picks the element and hence sum increased and also since chance of picking it up again so index not increased
     subsum(ind+1,n,sum+arr[ind],arr,ans);
     
-    //Doesnot pick the element and hence target not reduced and also index + 1
+    //Doesnot pick the element and hence sum not increased and also index + 1
     subsum(ind+1,n,sum,arr,ans);
     
 }
@@ -52,4 +52,6 @@ int main()
 }
 
     //Code by Blaze
-    // TC O(2^n* n) and SC - changes according to ans. in general O(2^n)
+    /* Time Complexity: O(2^n)+O(2^n log(2^n)). Each index has two ways. You can either pick it up or not pick it. So for n index time complexity for O(2^n) and for sorting it will take (2^n log(2^n)).
+
+Space Complexity: O(2^n) for storing subset sums, since 2^n subsets can be generated for an array of size n.*/
