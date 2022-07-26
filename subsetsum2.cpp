@@ -17,9 +17,9 @@ void subsum(int ind,int n, int arr[],vector<int> &res, vector<vector<int>> &ans)
         subsum(i+1,n,arr,res,ans);
         res.pop_back();
     }
-
-    
-
+/*here not added or not selected function isnot there, since we are already checking,
+for arr[i]!=arr[i-1]
+*/
     
 }
 int main()

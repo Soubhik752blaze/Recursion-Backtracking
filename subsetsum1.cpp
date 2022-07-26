@@ -1,4 +1,4 @@
-/*Subset sum problem is to find subset of elements that are selected from a given set whose sum adds up to a given number K. 
+/*Subset sum problem is to find all possible subset sum of elements that are selected from a given array. 
 We are considering the set contains non-negative values. 
 It is assumed that the input set is unique (no duplicates are presented).*/
 
@@ -41,7 +41,7 @@ int main()
     vector<int> res;
     vector<int> ans;
     subsum(0,n,0,arr,ans);
-    sort(ans.begin(), ans.end());
+    sort(ans.begin(), ans.end());   //optional
     for(auto x: ans)
         {
             cout<<x<<" ";
