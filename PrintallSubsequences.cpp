@@ -1,4 +1,4 @@
-// Print all subsequences of a string
+// Question:-  Print all subsequences of a string
 
 
 #include<bits/stdc++.h>
@@ -27,18 +27,8 @@ void printsubsequence(int ind,int n, int arr[], vector<int> &res)
 }
 int main()
 {
-    int n;
-    cout<<"Enter value of n :-";
-    cin>>n;
-    if(n<=0)
-       {
-            cout<<"wrong Input";
-            return 0;
-       }
-    cout<<"Enter the values :- ";
-    int arr[n];
-    for(int i=0;i<n;i++)
-        cin>>arr[i];
+    int arr[] = {1,2,3,4,5};
+    int n = 5;
     cout<<"The subsequences are:- "<<endl;
     vector<int> res;
     printsubsequence(0,n,arr,res);
