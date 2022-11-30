@@ -46,4 +46,5 @@ int main()
 }
 
 // Code by Blaze
-//  TC O(2^n * k) and SC - changes according to ans. in general O(k * x)
+//  TC O(2^t * k), where t is target and k is avg length of fit subsequence
+// and SC - changes according to ans. in general O(k * x)
