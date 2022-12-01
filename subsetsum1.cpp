@@ -9,6 +9,7 @@ using namespace std;
 //In other words, set A is contained inside Set B.
 void subsetsum(int ind, int n, int sum, vector<int> arr, vector<int> &ans)
 {
+    //base case where ind goes out of bound.
     if (ind == n)
     {
         ans.push_back(sum);
