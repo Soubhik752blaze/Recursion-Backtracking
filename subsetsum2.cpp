@@ -17,12 +17,12 @@ void subsum(int ind, int n, int arr[], vector<int> &res, vector<vector<int>> &an
         subsum(i + 1, n, arr, res, ans);
         res.pop_back();
     }
-    // here not take's function is not there, since we are already checking, for arr[i]!=arr[i-1]
+    // here not take's function is not explicitly there, since we are already implementing indirectly that using loop.. i.e popping_back last taken one and moving on to next element
 }
 int main()
 {
     int n = 3;
-    int arr[] = {1,2,2};
+    int arr[] = {1,2,3};
 
     cout << "Such combinations are :-" << endl;
     vector<int> res;
@@ -46,4 +46,4 @@ int main()
 }
 
 // Code by Blaze
-//  TC O(2^n * k) and SC -  O(2^n * k)
+//  TC O(2^n * k) and SC -  O(2^n * k) where k is avg. length of subset
