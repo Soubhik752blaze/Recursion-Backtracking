@@ -1,5 +1,5 @@
 /*Given an array of positive integers arr[] which may contain duplicate entries, find all possible subsets in arr[].
-The solution shouldnot contain duplicate entries os subsets.*/
+The solution shouldnot contain duplicate entries of subsets.*/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,8 +21,8 @@ void subsum(int ind, int n, int arr[], vector<int> &res, vector<vector<int>> &an
 }
 int main()
 {
-    int n = 3;
-    int arr[] = {1,2,3};
+        int n = 3;
+        int arr[] = {1,2,3};
 
     cout << "Such combinations are :-" << endl;
     vector<int> res;
