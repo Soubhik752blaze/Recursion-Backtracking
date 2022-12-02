@@ -47,4 +47,4 @@ int main()
 }
 
 //  TC -> O(n! * n) as there are n! permutations and for every permutation a loop from 0 to n is run,
-// and SC ->  O(2^n * k) where k is avg. length of subset
+// and SC ->  O(n) + o (n)
