@@ -21,8 +21,8 @@ void subsum(int ind, int n, int arr[], vector<int> &res, vector<vector<int>> &an
 }
 int main()
 {
-        int n = 3;
-        int arr[] = {1,2,3};
+    int n = 3;
+    int arr[] = {1, 2, 2};
 
     cout << "Such combinations are :-" << endl;
     vector<int> res;
@@ -45,4 +45,5 @@ int main()
     return 0;
 }
 
-//  TC O(2^n * k) and SC -  O(2^n * k) where k is avg. length of subset
+//  TC  -> O(2^n * k) , k for putting subset into answer data structure
+// ]SC -> O(2^n * k) where k is avg. length of subset
