@@ -1,4 +1,5 @@
-/*Given an array of positive integers arr[] which may contain duplicate entries, find all possible subsets in arr[].
+/* Question :- Given an array of positive integers arr[] which may contain duplicate entries, 
+find all possible subsets in arr[].
 The solution shouldnot contain duplicate entries os subsets.*/
 
 #include <bits/stdc++.h>
@@ -45,5 +46,5 @@ int main()
     return 0;
 }
 
-// Code by Blaze
-//  TC O(2^n * k) and SC -  O(2^n * k) where k is avg. length of subset
+//  TC -> O(n! * n) as there are n! permutations and for every permutation a loop from 0 to n is run,
+// and SC ->  O(2^n * k) where k is avg. length of subset
