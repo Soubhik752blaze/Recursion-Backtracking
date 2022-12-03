@@ -51,6 +51,7 @@ bool graphColoring(bool graph[V][V], int m)
 
 int main()
 {
+    //adjacency matrix used
     bool graph[V][V] = {
         {0, 1, 1, 1},
         {1, 0, 1, 0},
