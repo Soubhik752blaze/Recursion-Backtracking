@@ -15,6 +15,9 @@ class solution
             return;
         }
         // general scenario
+
+        // from every cell, try all possible directions for movement
+        // if blocked somewhere, retrace your steps by backtracking
         // to maintain lexicographical order, start directions from D then L then R then U.
         // Downward Movement
         if (i + 1 < n && vis[i + 1][j] == 0 && maze[i + 1][j] == 1)
