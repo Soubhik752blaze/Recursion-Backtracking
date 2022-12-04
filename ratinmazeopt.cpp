@@ -40,6 +40,8 @@ public:
   {
     vector<string> ans;
     vector<vector<int>> vis(n, vector<int>(n, 0));
+
+    // to maintain lexicographical order, start directions from D then L then R then U.ss
     int di[] = {+1, 0, 0, -1};
     int dj[] = {0, -1, 1, 0};
     if (maze[0][0] == 1)
