@@ -2,7 +2,6 @@
 Return all possible palindrome partitioning of s.*/
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 class Solution
