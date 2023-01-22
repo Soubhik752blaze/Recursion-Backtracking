@@ -7,7 +7,7 @@ using namespace std;
 
 // Entire problem is based on 1 concept:- Take an element or Dont take it.
 // Take an element into consideration, if its greater than the last element inserted in temp or its the first element to be inserted in temp.
-// Dont take if this criteria is not met.
+// Dont take if this criteria is not met, and move on to next index.
 void helper(int ind, int n, vector<int> nums, set<vector<int>> &st, vector<int> &temp)
 {
     // base condition
