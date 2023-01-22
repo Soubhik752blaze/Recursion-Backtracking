@@ -11,7 +11,7 @@ using namespace std;
 void helper(int ind, int n, vector<int> nums, set<vector<int>> &st, vector<int> &temp)
 {
     // base condition
-    if (ind >= n)
+    if (ind == n)
     {
         if (temp.size() > 1)
             st.insert(temp);
@@ -22,7 +22,6 @@ void helper(int ind, int n, vector<int> nums, set<vector<int>> &st, vector<int> 
     if (temp.size() == 0 || nums[ind] >= temp.back())
     {
         temp.push_back(nums[ind]);
-        // cout << nums[ind] << " ";
         helper(ind + 1, n, nums, st, temp);
         temp.pop_back();
     }
